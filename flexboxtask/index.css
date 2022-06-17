@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    
+}
+h3{
+    font-weight: 700px;
+    font-family: "Big Shoulders Display", sans-serif;
+    padding: 20px 10px;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    font-weight: 400px;
+    font-family: "Lexend Deca", sans-serif;
+    padding: 0px 10px 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 12px;
+    line-height: 20px;
+}
+.left{
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+}
+.middle{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    width: 100%;
+
+}
+.right{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+}
+.left button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    margin: 20px;
+}
+.left button:active{
+    color: hsl(0, 0%, 95%);
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    margin: 20px;
+}
+.middle button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    margin: 20px;
+}
+.middle button:active{
+    color: hsl(0, 0%, 95%);
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    margin: 20px;
+}
+.right button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    margin: 20px;
+}
+.right button:active{
+    color: hsl(0, 0%, 95%);
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    margin: 20px;
+}
+button{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+button:hover{
+    background-color: rgb(147, 148, 150);
+}
+
+
+
